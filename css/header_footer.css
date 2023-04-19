@@ -18,6 +18,8 @@ p, a, ul li, li a{
 
 img.main-logo{display:block; margin:auto; max-width:300px;}
 
+/* header{ position: fixed; width: 100%; } */
+
 header nav{
     display: flex;
     flex-direction:row;
@@ -26,6 +28,7 @@ header nav{
     align-content: center;
     padding:10px;
     background-color: cadetblue;
+    
 }
 
 nav ul {
@@ -79,7 +82,7 @@ nav ul {
     cursor: pointer;
 }
 
-#main {
+.main {
     transition: margin-left .5s;
     padding: 20px;
 }
@@ -119,9 +122,16 @@ div.social-media{
     gap: 20px;
 }
 
-.side-nav {max-width: 50%; transition: all 1s; opacity:0.95;}
+.side-nav {max-width: 35%; transition: all 1s; opacity:0.95;}
+
+
+
+.side-nav ul li a {
+    font-size: 1.5em;
+}
+
 div.social-media img{
-    width: 30%;
+    width: 50%;
 }
 }
 

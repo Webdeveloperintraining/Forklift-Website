@@ -16,7 +16,7 @@ document.getElementById("year").innerHTML=year;
 function hamburguerMenu(){
   document.getElementById("side-menu").style.width = "100%";
   document.querySelector('.closebtn').addEventListener("click",()=>{  document.getElementById("side-menu").style.width = "0";});
-  document.getElementById("main").style.marginLeft = "0";
+  //document.getElementById("main").style.marginLeft = "0";
   /*x.classList.toggle("change");*/
   //x.addEventListener("click",closeNav());
   //openNav()

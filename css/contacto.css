@@ -1,0 +1,35 @@
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 15rem;
+}
+
+address{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input, textarea{
+    border-radius:5px 5px 5px 5px;
+    padding:5px;
+    margin: 5px;
+}
+
+input.submit_btn{
+    margin: auto;
+    width: 10em;
+    padding: 10px;
+    cursor: pointer;
+}
