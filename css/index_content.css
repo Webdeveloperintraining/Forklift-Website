@@ -7,11 +7,12 @@ main img{
 .btn{
     display:block;
     text-align: center;
-    background-color: green;
+    background-color: rgb(192, 10, 10);
     margin: auto;
     width: 8em;
     text-decoration: none;
     color: aliceblue;
-    padding: 10px;
+    /* border: 1px solid black; */
+    padding: 20px;
     cursor: pointer;
 }
