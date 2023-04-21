@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/contacto.css">
-    <title>Forklift | Inicio</title>
+    <title>Forklift | Contacto</title>
 </head>
 <body>
     <header>
@@ -57,17 +57,18 @@
             <address>MONTERREY: Mariano Escobedo Nte. #608, Col. Centro, Monterrey NL México, CP 64000.</address>
         </div>
     <h1>Cotiza ahora!</h1>
-    <form action="SendMail/email.php">
-        <label for="nombre">Nombre*</label>
-        <input type="text">
-        <label for="correo">Correo electronico*</label>
-        <input type="email" name="" id="">
-        <label for="telefono">Telefono</label>
-        <input type="tel" name="" id="" placeholder="664 123 4564">
-        <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-        <input type="submit" class="submit_btn"  value="Enviar Correo">
-
+    <form id="contacto" action="./SendMail/emailSender.php" method="POST">
+        <label for="Nombre">Nombre*</label>
+        <input type="text" name="nombre" required>
+        <label for="Correo">Correo electronico*</label>
+        <input type="email" name="email" required>
+        <label for="Telefono">Telefono</label>
+        <input type="tel" name="telefono" placeholder="664 123 4564">
+        <label for="Mensaje">Mensaje</label>
+        <textarea name="mensaje" cols="30" rows="10"></textarea>
+        <input type="hidden" name="formulario" value="1">
+        <button class="g-recaptcha submit_btn" data-sitekey="6LeTt6QlAAAAAEGNP49xdRfgliet_jvSxATx7q6N" 
+        data-callback='onSubmit' data-action='submit'>Enviar Correo</button>
     </form>
 </main>
     <footer>
@@ -80,4 +81,10 @@
     </footer>
 </body>
 <script src="scripts/header&footer.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("contacto").submit();
+    }
+    </script>
 </html>

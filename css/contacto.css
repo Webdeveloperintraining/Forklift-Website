@@ -27,7 +27,7 @@ input, textarea{
     margin: 5px;
 }
 
-input.submit_btn{
+.submit_btn{
     margin: auto;
     width: 10em;
     padding: 10px;
