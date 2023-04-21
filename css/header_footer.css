@@ -35,7 +35,7 @@ nav ul {
     display: flex;
     position: relative;
     top: 7rem;
-    gap:2em;
+    gap:1em;
     text-align: center;
     flex-direction: column;
     padding: 0;
@@ -52,7 +52,7 @@ nav ul {
     left: 0;
     background-color: #111; 
     overflow-x: hidden; 
-    padding-top: 60px; 
+    /* padding-top: 60px;  */
     transition: 0.5s; 
 }
 
@@ -73,7 +73,7 @@ nav ul {
 
 .side-nav .closebtn {
     position: absolute;
-    /* top: 1.5em; */
+    top: 1em;
     right: 30px;
     font-size: 36px;
     padding: 20px;
