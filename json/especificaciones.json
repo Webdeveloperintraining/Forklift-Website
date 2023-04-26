@@ -1,0 +1,20 @@
+{
+    "palletAzul":{"tipoDeControl":"manual",
+        "tipoDeTranspaleta":"estandar",
+        "capacidadDeCarga_kg":2500,
+        "centroDeGravedad_mm":610,
+        "tipoDeBomba":"estandar",
+        "alturaMinima_mm":75,
+        "alturaElevacion":190,
+        "longitudTotal_mm":1620,
+        "longitudHorquillas_mm":1220,
+        "longitudControl_mm":400,
+        "distanciaCentro_mm":327,
+        "anchoTotal_mm":685,
+        "anchoHorquillas_mm":160,
+        "horquillasCerradas":"NO",
+        "anchoAtravesHorquillas_mm":685,
+        "anchoEntreHorquillas":365}
+    }
+
+
