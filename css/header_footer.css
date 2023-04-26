@@ -1,9 +1,6 @@
-/* Colores 
-background-color:#7EA3CC;
-background-color:#255C99;
-background-color:#262626;
-background-color:#B3001B;
 
+/*Unused colors
+    color: #222fe2;
 */
 
 /*General Styles*/
@@ -19,7 +16,7 @@ p, a, ul li, li a{
 .burger{
     cursor: pointer;
     font-size: 2.5rem;
-    color: white;
+    color: #fffdfd;
 }
 
 .main-nav{display: none;}
@@ -38,7 +35,7 @@ header nav{
     /*background-color: cadetblue;*/
     /* background-color:#8bc431; */
     /*background-color:#B3001B;*/
-    background-color:#B9BAA3;
+    background-color:#f03612;
 }
 
 nav ul {
@@ -70,7 +67,7 @@ nav ul {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 2em;
-    color: #818181;
+    color: #f1f1f1;
     display: flex;
     justify-content: center;
     transition: 0.3s;
@@ -78,7 +75,8 @@ nav ul {
 }
 
 .side-nav a:hover{
-    color: #f1f1f1;
+    color: #b1b1b1;
+
 }
 
 .side-nav .closebtn {
@@ -87,7 +85,7 @@ nav ul {
     right: 30px;
     font-size: 36px;
     padding: 20px;
-    color: white;
+    color: #fffdfd;
     /* margin-left: 50px; */
     cursor: pointer;
 }
@@ -96,7 +94,7 @@ nav ul {
     transition: margin-left .5s;
     padding: 20px;
     /* background-color:#d3e8ff; */
-    background-color:#D6D5C9;
+    background-color:#fffdfd;
 }
 
 .social-media{display: none;}
@@ -109,9 +107,13 @@ footer{
     align-items: center;
     gap: 20px;
     /* background-color:#255C99; */
-    background-color:#B9BAA3;
+    /* background-color:#B9BAA3; */
+    /* background-color:#000000; */
+    background-color:#f7d101;
     text-align: center;
     padding:20px;
+    /* color: #fffdfd; */
+    color: #000000;
 }
 
 footer div.social-media-footer{
@@ -137,8 +139,6 @@ div.social-media{
 
 .side-nav {max-width: 35%; transition: all 1s; opacity:0.95;}
 
-
-
 .side-nav ul li a {
     font-size: 1.5em;
 }
@@ -154,6 +154,6 @@ div.social-media img{
     .closebtn {display: none;}
     header nav{justify-content: space-evenly; }
     .main-nav{display: flex; flex-direction: row; position: static; gap:2rem;} 
-    .main-nav li a{color: white; text-decoration: none; padding: 20px;}
+    .main-nav li a{color: #f1f1f1; text-decoration: none; padding: 20px;}
     #side-menu{display: none;}
 }
