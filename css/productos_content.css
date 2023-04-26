@@ -3,3 +3,6 @@ main img{
     margin: auto;
     max-width: 80%;
 }
+section{
+    border: 1px black dashed;
+}

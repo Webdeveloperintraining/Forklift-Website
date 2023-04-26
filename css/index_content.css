@@ -7,7 +7,9 @@ main img{
 .btn{
     display:block;
     text-align: center;
-    background-color: rgb(192, 10, 10);
+    /*background-color: rgb(192, 10, 10);*/
+    /* background-color:#255C99; */
+    background-color: #A22C29;
     margin: auto;
     width: 8em;
     text-decoration: none;

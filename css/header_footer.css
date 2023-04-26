@@ -1,3 +1,11 @@
+/* Colores 
+background-color:#7EA3CC;
+background-color:#255C99;
+background-color:#262626;
+background-color:#B3001B;
+
+*/
+
 /*General Styles*/
 h1,h2,h3,h4, h5{
     font-family: 'Mukta', sans-serif;
@@ -27,8 +35,10 @@ header nav{
     align-items: center;
     align-content: center;
     padding:10px;
-    background-color: cadetblue;
-    
+    /*background-color: cadetblue;*/
+    /* background-color:#8bc431; */
+    /*background-color:#B3001B;*/
+    background-color:#B9BAA3;
 }
 
 nav ul {
@@ -50,7 +60,7 @@ nav ul {
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #111; 
+    background-color:#000000;
     overflow-x: hidden; 
     /* padding-top: 60px;  */
     transition: 0.5s; 
@@ -85,6 +95,8 @@ nav ul {
 .main {
     transition: margin-left .5s;
     padding: 20px;
+    /* background-color:#d3e8ff; */
+    background-color:#D6D5C9;
 }
 
 .social-media{display: none;}
@@ -96,7 +108,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: rgb(255, 197, 72);
+    /* background-color:#255C99; */
+    background-color:#B9BAA3;
     text-align: center;
     padding:20px;
 }
