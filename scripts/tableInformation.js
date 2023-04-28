@@ -9,7 +9,6 @@ async function waitForData (json){
 }
 
 function doStuff(data){
-    let test = data[1];
-    console.log(test);
+    console.log(data);
 }
 waitForData (json);
