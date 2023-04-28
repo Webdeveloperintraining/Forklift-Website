@@ -32,9 +32,6 @@ header nav{
     align-items: center;
     align-content: center;
     padding:10px;
-    /*background-color: cadetblue;*/
-    /* background-color:#8bc431; */
-    /*background-color:#B3001B;*/
     background-color:#f03612;
 }
 
@@ -58,8 +55,7 @@ nav ul {
     top: 0; 
     left: 0;
     background-color:#000000;
-    overflow-x: hidden; 
-    /* padding-top: 60px;  */
+    overflow-x: hidden;
     transition: 0.5s; 
 }
 

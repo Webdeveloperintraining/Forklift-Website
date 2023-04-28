@@ -1,5 +1,6 @@
 {
-    "palletAzul":{"tipoDeControl":"manual",
+    "palletAzul":{
+        "tipoDeControl":"manual",
         "tipoDeTranspaleta":"estandar",
         "capacidadDeCarga_kg":2500,
         "centroDeGravedad_mm":610,
@@ -14,7 +15,8 @@
         "anchoHorquillas_mm":160,
         "horquillasCerradas":"NO",
         "anchoAtravesHorquillas_mm":685,
-        "anchoEntreHorquillas":365}
+        "anchoEntreHorquillas":365
     }
+}
 
 
