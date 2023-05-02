@@ -3,9 +3,9 @@ main img{
     margin: auto;
     max-width: 80%;
 }
-section{
+/* section{
     border: 1px black dashed;
-}
+} */
 
   /* Estilos para la tabla */
   table {
@@ -43,3 +43,11 @@ section{
   td:hover {
     background-color: #f5f5f5;
   }
+
+  /* Medium size */
+@media only screen and (min-width: 38.5em) {
+
+  main img{
+    max-width: 50%;
+}
+}
