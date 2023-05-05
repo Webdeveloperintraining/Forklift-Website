@@ -19,8 +19,7 @@
     <header>
         <nav>
             <span class="burger" onclick="hamburguerMenu()">&#9776;</span>
-            </div>
-<a href="index.html"><img class="main-logo" src="media/forklift_logo_LW.webp" alt="Forklift_logo"></a>
+            <a href="index.html"><img class="main-logo" src="media/forklift_logo_LW.webp" alt="Forklift_logo"></a>
             <ul class="main-nav">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="productos.html">Productos</a></li>
@@ -43,9 +42,13 @@
         </nav>
     </header>
     <main class="main">
-        <picture>
-            <img src="https://placehold.co/800x400/webp" alt="video or large image">
-        </picture>
+        <!-- <div class="video-area">
+            <div></div>
+            <video style="aspect-ratio: 16/9;" preload="auto" controlslist="nodownload" oncontextmenu="return false" autoplay="autoplay" muted loop>
+                <source src="./media/index/video1.mp4" type="video/webm">   
+            </video>
+            <h3>Soluciones a la altura de los nuevos desafios</h3>
+        </div> -->
         <h1>FKL Equipments & Solutions</h1>
         <p>Es distribuidor autorizado por IMOW Equipment para comercializar, reparar y arrendar montacargas contrabalanceados, 
         patines, elevadores y carretillas de arrastre y ofrecer soluciones a sus clientes en el renglón de manejo de materiales dentro de la República Mexicana.</p>
@@ -57,21 +60,33 @@
         <p><a href="#" class="btn">¿Porque Litio?</a></p>
         <img src="https://placehold.co/300x200/webp" alt="image">
         <div>
-            <h3>Menor precio mayores beneficios</h3>
+            <h4>Menor precio mayores beneficios</h3>
         </div>
-        <h3>Nuestros valores</h3>
+        <h2>Nuestros valores</h2>
         <section>
             <div class="valores">
                 <div>
-                    <img src="https://placehold.co/150x150/webp" alt="iconos">
+                    <picture>
+                        <source srcset="https://placehold.co/600x300/webp" media="(min-width:60rem)">
+                        <!-- <source srcset="https://placehold.co/300x300/webp" media="(min-width:35rem) and (max-width: 60rem)"> -->
+                        <img src="https://placehold.co/300x300/webp" alt="iconos">
+                    </picture>
                     <h4>Creativos</h4>
                 </div>
                 <div>
-                    <img src="https://placehold.co/150x150/webp" alt="iconos">
+                    <picture>
+                        <source srcset="https://placehold.co/600x300/webp" media="(min-width:60rem)">
+                        <!-- <source srcset="https://placehold.co/300x300/webp" media="(min-width:35rem) and (max-width: 60rem)"> -->
+                        <img src="https://placehold.co/300x300/webp" alt="iconos">
+                    </picture>
                     <h4>Inspirados</h4>
                 </div>
                 <div>
-                    <img src="https://placehold.co/150x150/webp" alt="iconos">
+                    <picture>
+                        <source srcset="https://placehold.co/600x300/webp" media="(min-width:60rem)">
+                        <!-- <source srcset="https://placehold.co/300x300/webp" media="(min-width:35rem) and (max-width: 60rem)"> -->
+                        <img src="https://placehold.co/300x300/webp" alt="iconos">
+                    </picture>
                     <h4>Comprometidos</h4>
                 </div>
             </div>
@@ -83,8 +98,8 @@
             <a href="#" target="_blank"><img src="media/facebook_logo.webp" alt="facebook"></a>
             <a href="#" target="_blank"><img src="media/linkedin_logo.webp" alt="linkedin"></a>
         </div>
-        <h5> &#169 <span id="year"></span> Todos los derechos reservados para FKL equipment & solutions</h5>
+        <h5> &#169;<span id="year"></span> Todos los derechos reservados para FKL equipment & solutions</h5>
     </footer>
+    <script src="scripts/navigation.js"></script>
 </body>
-<script src="scripts/navigation.js"></script>
 </html>

@@ -1,31 +1,39 @@
 {
-    "Pallet_Azul":{
+    "palletAzul":{
         "imagenes":{
             "pequeño":"",
             "mediano":"",
             "grande":"",
-            "minatura":""
-        },
+            "minatura":""},
+        "caracteristicas":["Tipo de control","Tipo de transpaleta","Capacidad carga (kg)","Centro de gravedad","Tipo de bomba","Altura minima (mm)",
+            "Altura de elevacion (mm)","Longitud total (mm)","Longitud horquillas (mm)","Longitud control (mm)","Distancia centro (mm)","Ancho total (mm)","Ancho horquillas (mm)","Horquillas cerradas",
+            "Ancho a traves de las horquillas (mm)","Ancho entre horquillas (mm)"],
         "propiedades":{
-            "tipoControl":"manual",
-            "tipoTranspaleta":"estandar",
+            "tipoControl":"Manual",
+            "tipoTranspaleta":"Estandar",
             "capacidadCarga":2500,
-            "centroGravedad (mm)":610,
+            "centroGravedad":610,
             "tipoBomba":"estandar",
-            "alturaMinima (mm)":75,
+            "alturaMinima":75,
             "alturaElevacion":190,
-            "longitudTotal (mm)":1620,
-            "longitudHorquillas (mm)":1220,
-            "longitudControl(mm)":400,
-            "distanciaCentro_mm":327,
-            "anchoTotal_mm":685,
-            "anchoHorquillas_mm":160,
+            "longitudTotal":1620,
+            "longitudHorquillas":1220,
+            "longitudControl":400,
+            "distanciaCentro":327,
+            "anchoTotal":685,
+            "anchoHorquillas":160,
             "horquillasCerradas":"NO",
-            "anchoAtravesHorquillas_mm":685,
-            "anchoEntreHorquillas":365},
-        "caracteristicas":["Tipo de Control","Tipo de Transpaleta","Capacidad Carga (kg)","Centro de Gravedad","","","","","","","","",""]
-        },
-    "llantas":{"tamaño":"Gigante"}
+            "anchoAtravesHorquillas":685,
+            "anchoEntreHorquillas":365
+        }
+    },
+    "llantas":{
+        "imagenes":{
+            "pequeño":"",
+            "mediano":"",
+            "grande":"",
+            "minatura":""}
+        }
 
 }
 

@@ -4,6 +4,41 @@ main img{
     max-width: 80%;
 }
 
+.video-area{
+    position: relative;
+}
+
+/* .video-area div::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 99.5%;
+    background-color:rgba(111, 111, 255, 0.918);
+    opacity: .3;
+    z-index: 1;
+    left: 0;
+    margin: 0;
+    top:0px;
+} */
+
+.video-area video{
+    position: relative;
+}
+
+.video-area h3{
+    color:white;
+    text-shadow: #000000 2px 5px 4px;
+    font-size:1.5rem;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .btn{
     display:block;
     text-align: center;
@@ -19,4 +54,8 @@ main img{
     padding: 20px;
     cursor: pointer;
     /* font-family: 'Noto Sans', sans-serif; */
+}
+
+section h4, div h4{
+    text-align: center;
 }

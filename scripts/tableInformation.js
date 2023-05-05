@@ -10,40 +10,23 @@ async function waitForData (json){
 }
 
 function gatheringData(data){
-    const paletAzul=data['propiedades'];
-    //insertingDataTables(paletAzul,document.getElementById('pallet'))
-
+    const paletAzul=data['palletAzul'];
+    const llanta= data['llanta'];
+    insertingDataTables(paletAzul,document.getElementById('pallet'))
 }
-/*
+
 function insertingDataTables(data,place){
+    let caracteristicas =data.caracteristicas;
+    let propiedades= data.propiedades;
+    let datosPropiedades= [];
+    for (var key of Object.keys(propiedades)){
+    datosPropiedades.push(propiedades[key])
+    }
+for (var i=0; i < caracteristicas.length; i++){
     let table_row=document.createElement("tr");
-    //let table_data1=document.createElement("td");
-    //let table_data2=document.createElement("td");
-    table_row.innerHTML=`<td>${gettipoDeControl}</td><td>${data.tipoDeTranspaleta}</td>`;
-    //table_row.table_data2.innerHTML='Prueba2';
+    table_row.innerHTML=`<td>${caracteristicas[i]}</td>`;
+    table_row.innerHTML+=`<td>${datosPropiedades[i]}</td>`;
     place.appendChild(table_row);
-    //place.appendChild(table_data1);
-    //place.appendChild(table_data2);
 }
-*/
+}
 waitForData(json);
-
-
-
-
-
-
-// const arraySparse = [1, 3, /* empty */, 7];
-// let numCallbackRuns = 0;
-
-// arraySparse.forEach((element) => {
-//   console.log({ element });
-//   numCallbackRuns++;
-// });
-
-// console.log({ numCallbackRuns });
-
-// // { element: 1 }
-// // { element: 3 }
-// // { element: 7 }
-// // { numCallbackRuns: 3 }
