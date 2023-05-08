@@ -91,9 +91,9 @@ input[type=text],input[type=email],input[type=tel]{
     background-repeat: no-repeat;
     padding-left: 40px;
 }
-input[type=text]{background-image: url(./media/contacto/profile_icon.webp);}
-input[type=email]{background-image: url(./media/contacto/email_icon.webp);}
-input[type=tel]{background-image: url(./media/contacto/smallT.webp);}
+input[type=text]{background-image: url(/media/contacto/profile_icon.webp);}
+input[type=email]{background-image: url(/media/contacto/email_icon.webp);}
+input[type=tel]{background-image: url(/media/contacto/small_telephone.webp);}
 
 textarea{
     resize: none;      
