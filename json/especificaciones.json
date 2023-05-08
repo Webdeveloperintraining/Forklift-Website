@@ -13,7 +13,7 @@
             "tipoTranspaleta":"Estandar",
             "capacidadCarga":2500,
             "centroGravedad":610,
-            "tipoBomba":"estandar",
+            "tipoBomba":"Estandar",
             "alturaMinima":75,
             "alturaElevacion":190,
             "longitudTotal":1620,

@@ -1,6 +1,5 @@
 // const jsonData='http://forklift-advantage.com/json/especificaciones.json';
 const json='https://webdeveloperintraining.github.io/Forklift-Website/json/especificaciones.json';
-//const json='./json/especificaciones.json';
 async function waitForData (json){
     const getJsondata = await fetch(json);
     if (getJsondata.ok) {
@@ -11,7 +10,6 @@ async function waitForData (json){
 
 function gatheringData(data){
     const paletAzul=data['palletAzul'];
-    const llanta= data['llanta'];
     insertingDataTables(paletAzul,document.getElementById('pallet'))
 }
 
@@ -28,5 +26,13 @@ for (var i=0; i < caracteristicas.length; i++){
     table_row.innerHTML+=`<td>${datosPropiedades[i]}</td>`;
     place.appendChild(table_row);
 }
+clearArray(datosPropiedades)
 }
+
+function clearArray(array) {
+    while (array.length > 0) {
+      array.pop();
+    }
+  }
+
 waitForData(json);

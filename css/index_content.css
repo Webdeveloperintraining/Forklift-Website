@@ -1,7 +1,12 @@
+.main section, .main section div{
+    margin: 15px;
+}
+
 main img{
     display: block;
     margin: auto;
     max-width: 80%;
+    
 }
 
 .video-area{
