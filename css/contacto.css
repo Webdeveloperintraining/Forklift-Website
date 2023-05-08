@@ -45,8 +45,8 @@ div.large-image img{
 iframe{
     display: block;
     margin: auto;
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     min-width: 85%;
     min-height: 85%;
 }
@@ -145,8 +145,8 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
     iframe{
             display: block;
             margin: auto;
-            width:10rem;
-            height:25rem;
+            width:5rem;
+            height:20rem;
             max-width: 200px;
         }
 
