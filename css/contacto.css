@@ -6,7 +6,7 @@ div.large-image h1{
     position: absolute;
     padding-left: 15px;
     text-shadow: #000000 5px 1px 10px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color:#fffdfd;
 }
 
@@ -61,7 +61,7 @@ address{
 
 .map-addresses{
     display: grid;
-    /* gap: 1rem; */
+    gap: 2rem;
 }
 
 form{

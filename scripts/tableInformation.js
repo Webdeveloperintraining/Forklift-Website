@@ -1,5 +1,6 @@
 // const jsonData='http://forklift-advantage.com/json/especificaciones.json';
-const json='https://webdeveloperintraining.github.io/Forklift-Website/json/especificaciones.json';
+//const json='https://webdeveloperintraining.github.io/Forklift-Website/json/especificaciones.json';
+const json = 'json/especificaciones.json';
 async function waitForData (json){
     const getJsondata = await fetch(json);
     if (getJsondata.ok) {
