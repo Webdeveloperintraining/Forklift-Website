@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="./scripts/imgLazyload.js" async></script>
     <title>Forklift | Inicio</title>
 </head>
 <body>
@@ -36,16 +37,17 @@
                 </ul>
             </div>
             <div class="social-media">
-                <a href="#" target="_blank"><img src="media/facebook_logo.webp" alt="facebook"></a>
-                <a href="#" target="_blank"><img src="media/linkedin_logo.webp" alt="linkedin"></a>
+                <a href="#" target="_blank"><img src="media/facebook_logo.webp"  data-src="media/facebook_logo.webp" alt="facebook"></a>
+                <a href="#" target="_blank"><img src="media/linkedin_logo.webp"  data-src="media/linkedin_logo.webp" alt="linkedin"></a>
             </div>
         </nav>
     </header>
     <main class="main">
         <div class="video-area">
-            <video preload="auto" controlslist="nodownload" oncontextmenu="return false" autoplay="autoplay" muted loop poster="https://placehold.co/800x400/webp">
+            <video class="lazy" preload="auto" controlslist="nodownload" oncontextmenu="return false" autoplay="autoplay" muted loop poster="/media/index/videoscreenshot.webp">
                 <source src="./media/index/video1.mp4" type="video/webm">   
             </video>
+            <div class="color-overlay"></div>
             <h1>Soluciones a la altura de los nuevos desafios</h1>
         </div>
         <section>
@@ -96,8 +98,8 @@
     <footer>
         <a href="index.html"><img class="main-logo" src="media/forklift_logo_LW.webp" alt="Forklift_logo"></a>
         <div class="social-media-footer">
-            <a href="#" target="_blank"><img src="media/facebook_logo.webp" alt="facebook"></a>
-            <a href="#" target="_blank"><img src="media/linkedin_logo.webp" alt="linkedin"></a>
+            <a href="#" target="_blank"><img src="media/facebook_logo.webp" data-src="media/facebook_logo.webp" alt="facebook"></a>
+            <a href="#" target="_blank"><img src="media/linkedin_logo.webp" data-src="media/linkedin_logo.webp" alt="linkedin"></a>
         </div>
         <p> &#169;<span id="year"></span> Todos los derechos reservados para FKL equipment & solutions</p>
     </footer>

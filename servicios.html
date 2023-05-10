@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/servicios.css">
+    <script src="./scripts/imgLazyload.js" async></script>
     <title>Forklift | Servicios</title>
 </head>
 <body>
@@ -43,10 +44,17 @@
     </nav>
 </header>
 <main class="main">
-    <h1>Servicios</h1>
+    <div class="large-image">
+        <picture>
+            <source media="(min-width:60rem)" srcset="/media/servicios/serviciosp_large.webp">
+            <img src="/media/servicios/serviciosp_medium.webp" alt="#">
+        </picture>
+        <h1>Servicios</h1>
+    </div>
+    
+    <section>
     <p>En FKL creemos en el poder del monitoreo y las herramientas innovadoras para apoyar a nuestros clientes. Con la aplicación en su celular, los clientes ya pueden comunicarse sobre su demanda postventa en tiempo real, comprar repuestos y buscar manuales de servicio, información de mantenimiento o catálogo de repuestos en cualquier momento y en todo el mundo.</p>
     <p>El sistema EP Care se ocupa de todas sus solicitudes de servicio postventa con nuestros productos de diseño inteligente, una plataforma en línea eficiente y técnicos profesionales. Lo cubrimos todo, desde soporte técnico, suministro de repuestos, servicio de garantía y capacitación posventa a través de varios canales.</p>
-    <section>
         <h2>PRODUCTO</h2>
         <ul>
             <li>Diseño inteligente de producto para una reparación simple</li>
@@ -68,7 +76,7 @@
         <p>El equipo también puede brindarle asistencia a través de un sistema que envía datos a su teléfono móvil o PC, tales como:</p>
         <p>El equipo también puede brindarle asistencia a través de un sistema que envía datos a su teléfono móvil o PC, tales como:</p>
         <img src="/media/servicios/Prioridad.jpeg" alt="joven_en montacarga rojo"><h4>Somos la mejor opcion porque tu necesidad es nuestra prioridad</h4></div>
-        <img src="media/servicios/manoObra.jpeg" width="30%" alt="Mano de Obra">
+        <img src="media/servicios/manoObra.jpeg" alt="Mano de Obra">
         <ul>
             <li>Mano de obra</li>
             <li>Mantenimientos correctivos</li>
@@ -76,7 +84,7 @@
         </ul>
         <img src="/media/servicios/atencionCliente.jpeg" alt="">
         <p>La mejor atencion al cliente</p>
-        <img src="/media/servicios/tecnicosCapacitados.jpeg" width="30%" alt="revisando_montacarga">
+        <img src="/media/servicios/tecnicosCapacitados.jpeg" alt="revisando_montacarga">
         <ul>
             <li>Equipo de servicio local para comunicación directa</li>
             <li>Formación postventa multicanal</li>

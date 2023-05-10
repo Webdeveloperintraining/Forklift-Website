@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/productos.css">
     <script src="scripts/tableInformation.js" async></script>
+    <script src="./scripts/imgLazyload.js" async></script>
     <title>Forklift | Productos</title>
 </head>
 <header>
@@ -42,8 +43,16 @@
     </nav>
 </header>
 <main class="main">
+    <div class="large-image">
+        <picture>
+            <source media="(min-width: 60rem)" srcset="/media/productos/productosp_large.webp">
+            <img src="/media/productos/productosp_medium.webp" alt="">
+        </picture>
     <h1>Productos</h1>
-    <p>Contamos con una amplia gama de equipos para manejo de materiales, que se adaptan a las necesidades de cada cliente y a cada aplicación. Podemos recomendar el más adecuado conforme a los requisitos y características, capacidad de elevación o tecnología, ya sea de Motor eléctrico de inducción o con motor de combustión (CI).</p>
+    </div>
+    <!-- <div>
+        <p>Contamos con una amplia gama de equipos para manejo de materiales, que se adaptan a las necesidades de cada cliente y a cada aplicación. Podemos recomendar el más adecuado conforme a los requisitos y características, capacidad de elevación o tecnología, ya sea de Motor eléctrico de inducción o con motor de combustión (CI).</p>
+    </div> -->
     <section class="banner2"> 
         <h2>¡Nuestros equipos cuentan con la más alta calidad a la altura de los mejores del mercado!</h2>
     </section>
