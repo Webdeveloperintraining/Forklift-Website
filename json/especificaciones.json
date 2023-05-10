@@ -12,7 +12,7 @@
             "tipoControl":"Manual",
             "tipoTranspaleta":"Estandar",
             "capacidadCarga":"2500 (kg)",
-            "centroGravedad":"610",
+            "centroGravedad":"610 (mm)",
             "tipoBomba":"Estandar",
             "alturaMinima":"75 (mm)",
             "alturaElevacion":"190 (mm)",

@@ -1,22 +1,22 @@
 .main section{
-    padding: 15px;
+    margin: 15px;
 }
 
 div.large-image h1{
     position: absolute;
     padding-left: 15px;
     text-shadow: #000000 5px 1px 10px;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    top: 5rem;
     color:#fffdfd;
 }
-
 
 div.large-image img{
     object-fit: cover;
     width: 100%;
-    height: 35rem;
+    height: 65vh;
+    min-height: 400px;
 }
-
 
 #whats,#telefo{
     text-align: center;
@@ -27,6 +27,10 @@ div.large-image img{
     width: 6rem;
     /* border: dashed salmon 1px; */
 }
+
+/* .contact_numbers #whats:hover,.contact_numbers #telefo:hover {
+    text-decoration: underline;
+} */
 
 .tnum{
     text-align: center;
@@ -39,16 +43,15 @@ div.large-image img{
     text-decoration: none;
     color: #000000;
     font-size: 1.2rem;
-    /* border: dashed salmon 1px; */
 }
 
 iframe{
     display: block;
     margin: auto;
-    width: 20rem;
-    height: 20rem;
+    width: 20vw;
+    height: 30vh;
     min-width: 85%;
-    min-height: 85%;
+    min-height: 90%;
 }
 
 address{
@@ -61,7 +64,7 @@ address{
 
 .map-addresses{
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 form{
@@ -132,6 +135,12 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
         gap: 20vw;
     }
 
+    div.large-image h1{
+        padding-left: 60px;
+        font-size: 4rem;
+
+    }
+
     /* .contact_numbers img{width: 12vw;} */
 
     .map-addresses{
@@ -143,11 +152,9 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
     } 
 
     iframe{
-            display: block;
-            margin: auto;
-            width:5rem;
-            height:20rem;
-            max-width: 200px;
+            /* width:5rem; */
+            height:30vh;
+            /*max-width: 200px; */
         }
 
     section.form{display: block; margin: auto; width: 80%; max-width: 40rem;}
@@ -156,9 +163,15 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
 @media only screen and (min-width: 68rem ){
     
     div.large-image img{
-        height: 45rem;
+        height: 75vh;
     }
     /* .contact_numbers img{width: 14vw;} */
 
     section.form{width: 90%; max-width: 60rem;}
+
+    iframe{
+        /* width:5rem; */
+        height:55vh;
+        /*max-width: 200px; */
+    }
 }
