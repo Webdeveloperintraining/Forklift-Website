@@ -48,10 +48,12 @@ div.large-image img{
 iframe{
     display: block;
     margin: auto;
-    width: 20vw;
-    height: 30vh;
-    min-width: 85%;
-    min-height: 90%;
+    /* width: 20vw; */
+    /* height: 30vh; */
+    width: 85%;
+    min-height:20rem;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 address{
@@ -143,18 +145,23 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
 
     /* .contact_numbers img{width: 12vw;} */
 
-    .map-addresses{
+    /* .map-addresses{
         display: grid;
         grid-template-columns: 50% 50%;
         padding: 0;
         justify-content: center;
         gap:1.5rem;
-    } 
+    }  */
 
     iframe{
             /* width:5rem; */
-            height:30vh;
-            /*max-width: 200px; */
+            /* height:30vh;
+            min-height:350px;
+            min-width: 30rem;
+            max-width: 50rem; */
+        width: 85%;
+        min-height:25rem;
+        max-width: 40rem;
         }
 
     section.form{display: block; margin: auto; width: 80%; max-width: 40rem;}
@@ -170,8 +177,9 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
     section.form{width: 90%; max-width: 60rem;}
 
     iframe{
-        /* width:5rem; */
-        height:55vh;
-        /*max-width: 200px; */
+        /* max-height:60vh; */
+        /* width: 80%; */
+        min-height:30rem;
+        max-width: 55rem;
     }
 }

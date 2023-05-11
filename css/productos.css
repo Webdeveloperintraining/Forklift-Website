@@ -42,7 +42,7 @@ div p{
 main section img{
     display: block;
     margin: auto;
-    max-width: 80%;
+    /* max-width: 80%; */
 }
 
   /* Estilos para la tabla */
@@ -94,9 +94,9 @@ tr:hover {
 @media only screen and (min-width: 68rem ){
   div.large-image img{height: 75vh;}
 
-  main section.test{
+  /* main section.test{
     display: flex;
     flex-direction: row;
-  }
+  } */
 
 }
