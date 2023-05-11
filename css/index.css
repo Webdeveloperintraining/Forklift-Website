@@ -1,5 +1,5 @@
 .main section/*, .main section div*/{
-    margin: 15px;
+    margin: 25px;
 }
 
 main img{
@@ -22,7 +22,7 @@ main img{
     height: inherit;
     width: inherit;
     min-height:inherit;
-    background: blue;
+    background: #222fe6;
   }
 
 video{
@@ -69,6 +69,15 @@ video{
 
 section h4, div h4{
     text-align: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 
 @media only screen and (min-width: 40rem){
