@@ -64,10 +64,12 @@ address{
     font-size: 1.2rem;
 }
 
-.map-addresses{
-    display: grid;
-    gap: 4rem;
-}
+/* .map-addresses h2{
+    text-align:left;
+    margin-left: 15px;
+} */
+
+.map-addresses h2{text-align: center;}
 
 form{
     display: flex;
@@ -76,6 +78,8 @@ form{
     font-family: 'Noto Sans', sans-serif;
     margin:15px;
 }
+
+form h2{text-align: center;}
 
 form label{
     margin-left: 8px;
@@ -140,11 +144,17 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
     div.large-image h1{
         padding-left: 60px;
         font-size: 4rem;
-
     }
 
+    form h2{text-align:left;}
+
+    /* .map-addresses h2{
+        margin: 15px;
+        margin-left:10vw;
+    } */
     /* .contact_numbers img{width: 12vw;} */
 
+    /*.map-addresses h2{margin-left:10%;}*/
     /* .map-addresses{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -152,6 +162,8 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
         justify-content: center;
         gap:1.5rem;
     }  */
+
+    /* .map-addresses h2{display:block; margin: auto;} */
 
     iframe{
             /* width:5rem; */
@@ -175,6 +187,10 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
     /* .contact_numbers img{width: 14vw;} */
 
     section.form{width: 90%; max-width: 60rem;}
+    
+    /* .map-addresses h2{margin-left:10%;} */
+
+    /* .map-addresses h2{text-align: left; margin-left: 29rem;} */
 
     iframe{
         /* max-height:60vh; */

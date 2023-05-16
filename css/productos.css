@@ -80,23 +80,26 @@ tr:hover {
   background-color: #f5f5f5;
 }
 
+details{font-family:'Mukta', sans-serif; border-top: 1px solid; border-bottom: 1px solid;}
+details summary{padding: 1rem;}
+
+.llantasTipos{text-align: center;}
+
   /* Medium size */
 @media only screen and (min-width: 40rem) {
-  div.large-image h1{
-    padding-left: 60px;
-    font-size: 4rem;
-}
-  main section img{
-    max-width: 40vw;
-}
+  div.large-image h1{padding-left: 60px;font-size: 4rem;}
+  
+  main section img{max-width: 40vw;}
+
+  div.container{ display: flex; flex-direction:row; justify-content: center; align-items: center;}
+
+  .llantasTipos{display:grid; grid-template-columns: 50% 50%;}
+
 }
 
 @media only screen and (min-width: 68rem ){
   div.large-image img{height: 75vh;}
 
-  /* main section.test{
-    display: flex;
-    flex-direction: row;
-  } */
+  .llantasTipos{display:grid; grid-template-columns: repeat(4,25%);}
 
 }
