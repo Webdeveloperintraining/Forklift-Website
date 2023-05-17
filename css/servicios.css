@@ -21,20 +21,17 @@ div.large-image img{
 section img {display:block; margin:auto; width: 60%;}
 
 @media only screen and (min-width: 40em) {
-div.large-image h1{
-    padding-left: 60px;
-    font-size: 4rem;
-}
+div.large-image h1{padding-left: 60px;font-size: 4rem;}
 
 div.servicios-img{
     display:flex; 
     flex-direction:row; 
-    justify-content:center; 
-    gap:15px;
+    justify-content:space-evenly; 
+    align-content: center;
+    /* gap:15px; */
 }
 
-div.servicios-img img{width:15rem;}
-
+div.servicios-img img{width:70%;}
 
 }
 
