@@ -85,18 +85,22 @@ details summary{padding: 1rem;}
 
 .forklift-section img{min-width:15rem;}
 
+.llantasCategorias picture img{width:15rem;}
+
+
 .llantasTipos{text-align: center;}
 
   /* Medium size */
 @media only screen and (min-width: 40rem) {
   div.large-image h1{padding-left: 60px;font-size: 4rem;}
   
-  main section img{max-width: 40vw;}
+  /* main section img{max-width: 40vw;} */
 
   div.container{ display: flex; flex-direction:row; justify-content: center; align-items: center;}
 
-  .llantasTipos{display:grid; grid-template-columns: 50% 50%;}
+  .llantasCategorias picture img{width:20rem;}
 
+  .llantasTipos{display:grid; grid-template-columns: 50% 50%;}
 }
 
 @media only screen and (min-width: 68rem ){

@@ -11,7 +11,6 @@ div.large-image h1{
     bottom: 0;
 }
 
-
 div.large-image img{
     object-fit: cover;
     width: 100%;
@@ -27,7 +26,15 @@ div.large-image h1{
     font-size: 4rem;
 }
 
-div.servicios-img{display:flex; flex-direction:row;}
+div.servicios-img{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:center; 
+    gap:15px;
+}
+
+div.servicios-img img{width:15rem;}
+
 
 }
 
