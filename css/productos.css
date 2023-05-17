@@ -83,6 +83,8 @@ tr:hover {
 details{font-family:'Mukta', sans-serif; border-top: 1px solid; border-bottom: 1px solid;}
 details summary{padding: 1rem;}
 
+.forklift-section img{min-width:15rem;}
+
 .llantasTipos{text-align: center;}
 
   /* Medium size */

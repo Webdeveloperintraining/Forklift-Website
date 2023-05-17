@@ -21,7 +21,7 @@ div.large-image img{
 #whats,#telefo{
     text-align: center;
 }
-
+.contact_numbers{margin: 15px;}
 .contact_numbers img{
     margin-bottom: 10px;
     width: 6rem;
@@ -64,12 +64,7 @@ address{
     font-size: 1.2rem;
 }
 
-/* .map-addresses h2{
-    text-align:left;
-    margin-left: 15px;
-} */
-
-.map-addresses h2{text-align: center;}
+section h2{text-align: center;}
 
 form{
     display: flex;
@@ -146,7 +141,7 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
         font-size: 4rem;
     }
 
-    form h2{text-align:left;}
+    /* form h2{text-align:left;} */
 
     /* .map-addresses h2{
         margin: 15px;

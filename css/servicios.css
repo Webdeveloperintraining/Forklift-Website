@@ -27,6 +27,8 @@ div.large-image h1{
     font-size: 4rem;
 }
 
+div.servicios-img{display:flex; flex-direction:row;}
+
 }
 
 @media only screen and (min-width: 68rem ){
