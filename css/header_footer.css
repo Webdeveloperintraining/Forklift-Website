@@ -25,9 +25,18 @@ p, a, ul li, li a{
 
 img.main-logo{display:block; margin:auto; width:70vw; max-width:300px; min-width:160px;}
 
-/* header{ position: fixed; width: 100%; } */
+header div{
+    display:flex;
+    align-items: center;
+    background-color: #f78401;
+    padding: 2px;
+    margin: 0;
+    justify-content:space-around;
+}
 
-header nav{
+header div div a{text-decoration: none; color: #fffdfd;}
+
+nav{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
@@ -91,15 +100,13 @@ nav ul {
     cursor: pointer;
 }
 
-.main {
-    transition: margin-left .5s;
-        /* background-color:#d3e8ff; */
-    background-color:#fffdfd;
-}
+.main {transition: margin-left .5s;background-color:#fffdfd;}
 
-div.social-media img{display: none;}
-div.social-media img a{padding:0;}
-
+div.social-media{display: flex; gap:15px;}
+div.social-media img{width: 40px;}
+div.social-media a{padding:0; transition:  all .5s;}
+div.social-media a:nth-child(1):hover{transform: translateY(-10px);transition:  all .5s; }
+div.social-media a:nth-child(2):hover{transform: translateY(-10px);transition: all .5s;}
 
 /*Footer styles*/
 footer{
@@ -125,16 +132,13 @@ footer div.social-media-footer{
     gap: 15px;
 }
 
-.social-media-footer img{
-    width:70%;
-}
+.social-media-footer img{width:70%;}
 
 footer h5{margin-top:0;}
 
 /* Medium size */
 @media only screen and (min-width: 38.5em) {
 div.social-media{
-    display:flex; 
     flex-direction: row;
     gap: 20px;
     margin-left: 1rem;
@@ -162,4 +166,7 @@ div.social-media img{display: block; width: 2.5rem; }
     .main-nav li a{color: #f1f1f1; text-decoration: none; padding: 20px; padding-bottom: 15px; border-bottom:1px #f03612 solid;}
     .main-nav li a:hover{border-bottom: #fffdfd solid 1px;}
     #side-menu{display: none;}
+
+
+    header div{justify-content: end; gap:1rem;}
 }

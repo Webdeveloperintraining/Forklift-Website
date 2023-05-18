@@ -7,8 +7,8 @@ div.large-image h1{
     text-shadow: #000000 5px 1px 10px;
     font-size: 3rem;
     color:#fffdfd;
-    top: 5rem;
-    bottom: 0;
+    top: 10rem;
+    /* bottom: 0; */
 }
 
 div.large-image img{

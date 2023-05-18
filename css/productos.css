@@ -8,7 +8,7 @@ div.large-image h1{
   text-shadow: #000000 5px 1px 10px;
   font-size: 3rem;
   color:#fffdfd;
-  top: 5rem;
+  top: 10rem;
   bottom: 0;
 }
 
@@ -19,7 +19,7 @@ div.large-image img{
   min-height: 400px;
 }
 
-div p{
+div.large-image p{
   margin: 25px;
 }
 
@@ -87,6 +87,10 @@ details summary{padding: 1rem;}
 
 .llantasCategorias picture img{width:15rem;}
 
+div.pat-grid{display: grid;}
+div.pat-grid picture{border-bottom: #000000 solid 1px;}
+
+div.pat-grid picture img{width:15rem;}
 
 .llantasTipos{text-align: center;}
 
@@ -95,6 +99,12 @@ details summary{padding: 1rem;}
   div.large-image h1{padding-left: 60px;font-size: 4rem;}
   
   /* main section img{max-width: 40vw;} */
+
+  div.pat-grid{grid-template-columns:50% 50%;}
+  div.pat-grid picture{border-bottom:none;}
+  div.pat-grid picture:nth-child(even){border-left: #000000 solid 1px;}
+  div.pat-grid picture:nth-child(1),div.pat-grid picture:nth-child(2){border-bottom: #000000 solid 1px;}
+
 
   div.container{ display: flex; flex-direction:row; justify-content: center; align-items: center;}
 
