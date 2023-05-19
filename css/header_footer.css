@@ -5,11 +5,13 @@
 
 /*General Styles*/
 h1,h2,h3,h4, h5{
-    font-family: 'Mukta', sans-serif;
+    /* font-family: 'Mukta', sans-serif; */
+    font-family: "myriad-pro-semi-condensed",sans-serif;
 }
 
-p, a, ul li, li a{
-    font-family: 'Noto Sans', sans-serif;
+p, a, ul li, li a, address{
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: "myriad-pro",sans-serif;
 }
 
 /* Navigation bar styles*/ 

@@ -1,6 +1,5 @@
-main section{
-    margin: 25px;
-}
+main section{margin: 25px;}
+
 div.large-image h1{
     position: absolute;
     padding-left: 15px;
@@ -10,6 +9,8 @@ div.large-image h1{
     top: 10rem;
     /* bottom: 0; */
 }
+
+div.large-image p{margin: 25px;}
 
 div.large-image img{
     object-fit: cover;
@@ -36,6 +37,8 @@ div.servicios-img img{width:70%;}
 }
 
 @media only screen and (min-width: 68rem ){
+    main section, div.large-image p{max-width:75vw; margin: auto;}
+
     div.large-image img{height: 75vh;}
 
     section img {display:block; margin:auto; width: 20%;}

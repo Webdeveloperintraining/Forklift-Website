@@ -59,7 +59,7 @@ th, td {
   border-bottom: 1px solid #f1f1f1;
 } 
 th {
-  font-family: 'Mukta', sans-serif;
+  /* font-family: 'Mukta', sans-serif; */
   background-color:#f7d101;
   font-weight: bold;
 } 
@@ -87,8 +87,12 @@ details summary{padding: 1rem;}
 
 .llantasCategorias picture img{width:15rem;}
 
+/* main section:nth-child(2){background-color:purple;} */
+
 div.pat-grid{display: grid;}
-div.pat-grid picture{border-bottom: #000000 solid 1px;}
+div.pat-grid div,.llantasTipos div{border-bottom: #817c7b9a solid 1px;}
+
+div.pat-grid div p{margin-top: 2rem; margin-left:2rem;}
 
 div.pat-grid picture img{width:15rem;}
 
@@ -100,11 +104,14 @@ div.pat-grid picture img{width:15rem;}
   
   /* main section img{max-width: 40vw;} */
 
-  div.pat-grid{grid-template-columns:50% 50%;}
-  div.pat-grid picture{border-bottom:none;}
-  div.pat-grid picture:nth-child(even){border-left: #000000 solid 1px;}
-  div.pat-grid picture:nth-child(1),div.pat-grid picture:nth-child(2){border-bottom: #000000 solid 1px;}
+  div.pat-grid{grid-template-columns:50% 50%; /*width: 50%;*/}
+  div.pat-grid div,.llantasTipos div{border-bottom:none;}
+  div.pat-grid div:nth-child(even),.llantasTipos div:nth-child(even){border-left: #817c7b9a solid 1px;}
 
+  .llantasTipos div{border-bottom: #817c7b9a solid 1px;}
+  div.pat-grid div:nth-child(1),div.pat-grid div:nth-child(2){border-bottom: #817c7b9a solid 1px;}
+
+  .llantasTipos div:nth-last-child(1),.llantasTipos div:nth-last-child(2){border-bottom:none;}
 
   div.container{ display: flex; flex-direction:row; justify-content: center; align-items: center;}
 
@@ -116,6 +123,7 @@ div.pat-grid picture img{width:15rem;}
 @media only screen and (min-width: 68rem ){
   div.large-image img{height: 75vh;}
 
-  .llantasTipos{display:grid; grid-template-columns: repeat(4,25%);}
+  /*.llantasTipos{display:grid; grid-template-columns: repeat(4,25%);}*/
+  /* .llantasTipos{border-bottom: #817c7b9a solid 1px;} */
 
 }
