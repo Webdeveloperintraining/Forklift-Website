@@ -1,6 +1,4 @@
-.main section{
-  margin: 25px;
-}
+main section{margin: 25px;}
 
 div.large-image h1{
   position: absolute;
@@ -87,26 +85,33 @@ details summary{padding: 1rem;}
 
 .llantasCategorias picture img{width:15rem;}
 
-/* main section:nth-child(2){background-color:purple;} */
-
 div.pat-grid{display: grid;}
-div.pat-grid div,.llantasTipos div{border-bottom: #817c7b9a solid 1px;}
+div.pat-grid div.pat,.llantasTipos div{border-bottom: #817c7b9a solid 1px;}
 
-div.pat-grid div p{margin-top: 2rem; margin-left:2rem;}
+div.pat-grid div.pat p{margin-top: 2rem; margin-left:2rem;}
 
 div.pat-grid picture img{width:15rem;}
+
+section.llantasCategorias div div img{width:80%; max-width:20rem;}
 
 .llantasTipos{text-align: center;}
 
   /* Medium size */
 @media only screen and (min-width: 40rem) {
   div.large-image h1{padding-left: 60px;font-size: 4rem;}
+  div.pat-grid{grid-template-columns:repeat(4,25%);}
+  div.pat-grid picture img{width:80%;max-width:10rem;}
+  div.pat-grid h2{grid-column: 1/4;}
+  div.pat-grid div:nth-child(1){grid-column: 1/2;}
+  div.pat-grid div:nth-child(2){grid-column: 2/3;}
+  div.pat-grid div:nth-child(3){grid-column: 1/2;}
+  div.pat-grid div:nth-child(4){grid-column: 2/3;}
+  div.pat-grid div.pat-text{margin-left:4rem; 
+  grid-column: 3/6; grid-row: 1/3; align-self: center;
+  justify-self: center;}
   
-  /* main section img{max-width: 40vw;} */
-
-  div.pat-grid{grid-template-columns:50% 50%; /*width: 50%;*/}
-  div.pat-grid div,.llantasTipos div{border-bottom:none;}
-  div.pat-grid div:nth-child(even),.llantasTipos div:nth-child(even){border-left: #817c7b9a solid 1px;}
+  div.pat-grid div.pat,.llantasTipos div{border-bottom:none;}
+  div.pat-grid div.pat:nth-child(even),.llantasTipos div:nth-child(even){border-left: #817c7b9a solid 1px;}
 
   .llantasTipos div{border-bottom: #817c7b9a solid 1px;}
   div.pat-grid div:nth-child(1),div.pat-grid div:nth-child(2){border-bottom: #817c7b9a solid 1px;}
@@ -121,6 +126,10 @@ div.pat-grid picture img{width:15rem;}
 }
 
 @media only screen and (min-width: 68rem ){
+  /* main section, div.large-image p{max-width:75vw; margin: auto;} */
+  main section{max-width:75vw; margin: auto;}
+  main div.large-image p{max-width:75vw; margin: auto; margin-top:15px; margin-bottom:15px;}
+
   div.large-image img{height: 75vh;}
 
   /*.llantasTipos{display:grid; grid-template-columns: repeat(4,25%);}*/
