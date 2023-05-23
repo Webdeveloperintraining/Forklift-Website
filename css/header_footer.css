@@ -96,7 +96,7 @@ nav ul {
     top: 1em;
     right: 30px;
     font-size: 34px;
-    padding: 20px;
+    padding: 10px;
     color: #fffdfd;
     /* margin-left: 50px; */
     cursor: pointer;
@@ -109,6 +109,8 @@ div.social-media img{width: 40px;}
 div.social-media a{padding:0; transition:  all .5s;}
 div.social-media a:nth-child(1):hover{transform: translateY(-10px);transition:  all .5s; }
 div.social-media a:nth-child(2):hover{transform: translateY(-10px);transition: all .5s;}
+
+#space{margin-bottom:4.5rem;}
 
 /*Footer styles*/
 footer{
