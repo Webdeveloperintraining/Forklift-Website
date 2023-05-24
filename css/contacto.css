@@ -184,7 +184,7 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
 @media only screen and (min-width: 68rem ){
     main section{max-width:75vw; margin: auto;}
 
-    div.large-image h1{right:60%;}
+    div.large-image h1{right:65%; font-size:3.5rem;}
 
     div.large-image img{height: 75vh;}
     /* .contact_numbers img{width: 14vw;} */

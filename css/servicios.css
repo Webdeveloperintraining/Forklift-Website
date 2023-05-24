@@ -34,7 +34,7 @@ div.large-image img{
 section img {display:block; margin:auto; width: 60%;}
 
 @media only screen and (min-width: 40em) {
-    div.large-image h1{/*padding-left: 60px;*/ right:70%; font-size:3.5rem;}
+    div.large-image h1{right:67%; font-size:3.5rem;}
 
 div.servicios-img{
     display:flex; 

@@ -86,7 +86,7 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
   /* Medium size */
 @media only screen and (min-width: 40rem) {
 
-  div.large-image h1{/*padding-left: 60px;*/ right:50%; font-size:3.5rem;}
+  div.large-image h1{/*padding-left: 60px;*/ right:60%; font-size:3.5rem;}
 
   div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%);}
 
