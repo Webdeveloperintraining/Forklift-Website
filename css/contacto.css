@@ -3,30 +3,39 @@ main section{
 }
 
 div.large-image h1{
+    /*
     position: absolute;
     padding-left: 15px;
     text-shadow: #000000 5px 1px 10px;
     font-size: 3rem;
     top: 10rem;
     color:#fffdfd;
+    */
+    color:white;
+    text-shadow: #000000 5px 1px 10px;
+    font-size:2.3rem;
+    position: absolute;
+    text-align: center;
+    padding-left: 15px;
+    top: 30%;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right:50%;
 }
 
 div.large-image img{
     object-fit: cover;
     width: 100%;
     height: 65vh;
-    min-height: 400px;
+    min-height: 500px;
 }
 
 #whats,#telefo{
     text-align: center;
 }
 .contact_numbers{margin: 15px;}
-.contact_numbers img{
-    margin-bottom: 10px;
-    width: 6rem;
-    /* border: dashed salmon 1px; */
-}
+.contact_numbers img{margin-bottom: 10px;width: 6rem;}
 
 /* .contact_numbers #whats:hover,.contact_numbers #telefo:hover {
     text-decoration: underline;
@@ -137,10 +146,7 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
         gap: 20vw;
     }
 
-    div.large-image h1{
-        padding-left: 60px;
-        font-size: 4rem;
-    }
+    div.large-image h1{font-size:3.5rem;}
 
     /* form h2{text-align:left;} */
 
@@ -177,6 +183,8 @@ textarea:focus,input[type=tel]:focus,input[type=text]:focus,input[type=email]:fo
 
 @media only screen and (min-width: 68rem ){
     main section{max-width:75vw; margin: auto;}
+
+    div.large-image h1{right:60%;}
 
     div.large-image img{height: 75vh;}
     /* .contact_numbers img{width: 14vw;} */

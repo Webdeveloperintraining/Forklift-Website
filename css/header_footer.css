@@ -19,14 +19,20 @@ p, a, ul li, li a, address{
     cursor: pointer;
     font-size: 2rem;
     color: #fffdfd;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
 }
 
 .main-nav{display: none;}
 
-img.main-logo{display:block; margin:auto; width:70vw; max-width:300px; min-width:160px;}
+picture img.main-logo{
+    display:block;
+    margin:auto;
+    /* width: 6rem; */
+    width:70%;
+}
 
+/*Navegador naranja*/
 header div{
     display:flex;
     align-items: center;
@@ -41,7 +47,7 @@ header div div a{text-decoration: none; color: #fffdfd;}
 nav{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
     align-content: center;
     padding:10px;
@@ -142,6 +148,14 @@ footer h5{margin-top:0;}
 
 /* Medium size */
 @media only screen and (min-width: 38.5em) {
+
+picture img.main-logo{
+    display:block;
+    margin:auto;
+    /* width: 6rem; */
+    width:80%;
+}
+
 div.social-media{
     flex-direction: row;
     gap: 20px;
@@ -157,20 +171,26 @@ div.social-media{
     font-size: 1.5em;
 }
 
-div.social-media img{display: block; width: 2.5rem; }
+div.social-media img{display: block; width: 2.5rem;}
 
 }
+
 /* Large size */
 @media only screen and (min-width: 60rem ){
     .burger{display: none;}
     .closebtn {display: none;}
     header nav{justify-content: space-evenly; }
-    .main-nav{display: flex; flex-direction: row; position: static; gap:2rem;} 
-    
-    .main-nav li a{color: #f1f1f1; text-decoration: none; padding: 20px; padding-bottom: 15px; border-bottom:1px #f03612 solid;}
+    .main-nav{display: flex; flex-direction: row; position: static; gap:2.5rem;} 
+    picture img.main-logo{width:50%;}
+    .main-nav li a{color: #f1f1f1; 
+        text-decoration: none; /*padding: 20px; padding-bottom: 15px;*/  
+        border-bottom:1px #f03612 solid; font-size:1.3rem;
+        padding: 1.5rem/*25px*/;
+    }
     .main-nav li a:hover{border-bottom: #fffdfd solid 1px;}
-    #side-menu{display: none;}
 
+    #side-menu{display: none;}
 
     header div{justify-content: end; gap:1rem;}
 }
+
