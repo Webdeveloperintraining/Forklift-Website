@@ -15,11 +15,11 @@ div.large-image h1{
     position: absolute;
     text-align: center;
     padding-left: 15px;
-    top: 30%;
+    top: 18rem;
     bottom: 0;
     margin: auto;
     left: 0;
-    right:60%;
+    right:50%;
 }
 
 div.large-image p{margin: 25px;}
