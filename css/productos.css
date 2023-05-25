@@ -80,10 +80,20 @@ details summary{padding: 1rem;}
 div.pat-grid picture img,div.container div picture img{width:15rem;}
 
 section.llantasCategorias div div img{width:80%;max-width:12rem;}
+/*
+.llantasTipos div {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  align-content: center;
+  text-align: left;
+  align-items: center;
+}
+*/
 
-.llantasTipos{text-align: center;}
+.llantasTipos h4{text-align: center;}
 
-  /* Medium size */
+/* Medium size */
 @media only screen and (min-width: 40rem) {
 
   div.large-image h1{/*padding-left: 60px;*/ right:60%; font-size:3.5rem;}
