@@ -80,7 +80,7 @@ details summary{padding: 1rem;}
 div.pat-grid picture img,div.container div picture img{width:15rem;}
 
 section.llantasCategorias div div img{width:80%;max-width:12rem;}
-/*
+
 .llantasTipos div {
   display:flex;
   justify-content:center;
@@ -89,9 +89,6 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
   text-align: left;
   align-items: center;
 }
-*/
-
-.llantasTipos h4{text-align: center;}
 
 /* Medium size */
 @media only screen and (min-width: 40rem) {
