@@ -81,7 +81,7 @@ div.pat-grid picture img,div.container div picture img{width:15rem;}
 
 section.llantasCategorias div div img{width:80%;max-width:12rem;}
 
-.llantasTipos div {
+.llantasTipos div h4 {
   display:flex;
   justify-content:center;
   flex-direction: column;
