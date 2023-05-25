@@ -15,30 +15,41 @@
 </head>
 <body>
     <header>
-        <nav>
-            <span class="burger" onclick="hamburguerMenu()">&#9776;</span>
-            <a href="index.html"><picture><source media="(min-width:60rem)" srcset="media/logo_forklift_m.png"><img class="main-logo" src="media/logo_forklift_s.png" alt="Forklift_logo"></picture></a>
-            <ul class="main-nav">
+        <div>
+            <div>
+                <a href="tel:+52-664-250-1754"><img src="./media/telephone_icon.png" width="30px" height="30px" alt="Telefono"></a>
+                <p><a href="tel:+52-664-250-1754">+52-664-250-1754</a></p>
+            </div>
+            <div>
+                <a href="https://wa.me/526632033623" target="_blank"><img src="./media/whatsapp_icon.png" width="30px" height="30px" alt="WhatsApp"></a>
+                <p><a href="https://wa.me/526632033623" target="_blank">+52-663-203-3623</a></p>
+            </div>
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="media/facebook_icon.png" alt="facebook"></a>
+                <a href="#" target="_blank"><img src="media/instagram_icon.png" alt="instagram"></a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <nav>
+        <span class="burger" onclick="hamburguerMenu()">&#9776;</span>
+        <a href="index.html"><picture><source media="(min-width:60rem)" srcset="media/logo_forklift_m.png"><img class="main-logo" src="media/logo_forklift_s.png" alt="Forklift_logo"></picture></a>
+        <ul class="main-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div id="side-menu" class="side-nav">
+            <span class="closebtn">&#10005;</span>
+            <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="contacto.html" id="space">Contacto</a></li>
             </ul>
-            <div id="side-menu" class="side-nav">
-                <span class="closebtn">&#10005;</span>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contacto.html" id="space">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="social-media">
-                <a href="#" target="_blank"><img src="media/facebook_logo.webp" alt="facebook"></a>
-                <a href="#" target="_blank"><img src="media/linkedin_logo.webp" alt="linkedin"></a>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <main class="main">
     <h1>El correo ha sido enviado exitosamente</h1>
     </main>
@@ -46,7 +57,7 @@
         <a href="index.html"><picture><source media="(min-width:60rem)" srcset="media/logo_forklift_m.png"><img class="main-logo" src="media/logo_forklift_s.png" alt="Forklift_logo"></picture></a>
         <div class="social-media-footer">
             <a href="#" target="_blank"><img src="media/facebook_logo.webp" alt="facebook"></a>
-            <a href="#" target="_blank"><img src="media/linkedin_logo.webp" alt="linkedin"></a>
+            <a href="#" target="_blank"><img src="media/instagram_logo.png" alt="instagram"></a>
         </div>
         <p> &#169; <span id="year"></span> Todos los derechos reservados para FKL equipment & solutions</p>
     </footer>
