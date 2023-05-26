@@ -1,4 +1,4 @@
-main section{margin: 25px;}
+main section,div.large-image p{margin: 25px;}
 
 div.large-image h1{
     /*
@@ -22,7 +22,7 @@ div.large-image h1{
     right:50%;
 }
 
-div.large-image p{margin: 25px;}
+/* div.large-image p{margin: 25px;} */
 
 div.large-image img{
     object-fit: cover;
@@ -49,7 +49,9 @@ div.servicios-img img{width:70%;}
 }
 
 @media only screen and (min-width: 68rem ){
-    main section, div.large-image p{max-width:75vw; margin: auto;}
+    main section{max-width:75vw; margin: auto;}
+
+    div.large-image p{max-width:75vw; margin: auto; margin-top:25px; margin-bottom:25px;}
 
     div.large-image img{height: 75vh;}
 
