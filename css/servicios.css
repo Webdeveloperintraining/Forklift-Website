@@ -33,6 +33,8 @@ div.large-image img{
 
 section img {display:block; margin:auto; width: 60%;}
 
+#f{text-align: center;}
+
 @media only screen and (min-width: 40em) {
     div.large-image h1{right:67%; font-size:3.5rem;}
 
