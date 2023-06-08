@@ -133,7 +133,8 @@ footer{
     text-align: center;
     padding:20px;
     /* color: #fffdfd; */
-    color: #000000;
+    /* color: #000000; */
+    color: #fffdfd;
 }
 
 footer div.social-media-footer{
@@ -145,7 +146,7 @@ footer div.social-media-footer{
 
 .social-media-footer img{width:70%;}
 
-footer h5{margin-top:0;}
+/* footer h5{margin-top:0;} */
 
 /* Medium size */
 @media only screen and (min-width: 38.5em) {
