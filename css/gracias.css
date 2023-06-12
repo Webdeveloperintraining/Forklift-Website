@@ -1,0 +1,47 @@
+section{margin: 20px; text-align: center;}
+
+main img{
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width:25rem;
+    margin:auto;
+}
+
+.btn{
+    display:block;
+    text-align: center;
+    background-color:#000000;
+    margin: auto;
+    width: 8em;
+    text-decoration: none;
+    color:white;
+    border: 1px solid #000000;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.btn:hover{
+    display: block;
+    margin: auto;
+    background-color: whitesmoke;
+    color: black;
+    border: #000000 1px solid;
+}
+
+@media only screen and (min-width: 40rem ){
+main img{
+    max-width:30rem;
+}
+}
+
+@media only screen and (min-width: 68rem ){
+
+    main img{
+        max-width:35rem;
+    }
+
+    .content{max-width:75vw; margin: auto;}
+}
