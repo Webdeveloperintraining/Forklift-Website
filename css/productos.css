@@ -97,10 +97,12 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
 
   div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%);}
 
-  div.pat-grid picture img,div.container div picture img{width:80%;max-width:10rem;}
+  div.pat-grid picture img,div.container div picture img{width:80%;max-width:12rem;}
   
   /* div.pat-grid div.pat,.llantasTipos div,div.container div.imgElement{border-bottom:none;} */
   div.pat-grid div.pat:nth-child(even),.llantasTipos div:nth-child(even),div.container div.imgElement:nth-child(even){border-left: #817c7b9a solid 1px;}
+
+  /* .imgElement{ margin-bottom: 10rem;} */
 
   .llantasTipos div{border-bottom: #817c7b9a solid 1px;}
   .llantasTipos div:nth-last-child(1),.llantasTipos div:nth-last-child(2){border-bottom:none;}

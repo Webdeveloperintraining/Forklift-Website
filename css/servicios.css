@@ -31,7 +31,7 @@ div.large-image img{
     min-height: 500px;
 }
 
-section img {display:block; margin:auto; width: 60%;}
+div.servicios-img img, img#img-prioridad {display:block; margin:auto; width:15rem; min-width: 10rem;}
 
 #f{text-align: center;}
 
@@ -60,4 +60,6 @@ div.servicios-img img{width:70%;}
     div.large-image h1{right:60%;}
 
     section img {display:block; margin:auto; width: 20%;}
+
+    img#img-prioridad{ width: 25rem;}
 }
