@@ -32,9 +32,9 @@ div.large-image img{
 }
 
 main section img{
-    display: block;
-    margin: auto;
-    /* max-width: 80%; */
+  display: block;
+  margin: auto;
+  /* max-width: 80%; */
 }
 
   /* Estilos para la tabla */
@@ -77,7 +77,7 @@ details summary{padding: 1rem;}
 
 /* div.pat-grid div.pat p{margin-top: 2rem; margin-left:2rem;} */
 
-div.pat-grid picture img,div.container div picture img{width:15rem;}
+div.pat-grid picture img, div.imgElement img{width:15rem;}
 
 section.llantasCategorias div div img{width:80%;max-width:12rem;}
 
@@ -95,11 +95,12 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
 
   div.large-image h1{/*padding-left: 60px;*/ right:60%; font-size:3.5rem;}
 
-  div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%);}
+  div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%); justify-content: center; align-content: center;}
 
-  div.pat-grid picture img,div.container div picture img{width:80%;max-width:12rem;}
+  div.container div img,div.imgElement img,div.pat-grid picture img{width:80%;max-width:14rem;}
   
-  /* div.pat-grid div.pat,.llantasTipos div,div.container div.imgElement{border-bottom:none;} */
+  div.pat-grid div.pat,.llantasTipos div{border-bottom:none;}
+
   div.pat-grid div.pat:nth-child(even),.llantasTipos div:nth-child(even),div.container div.imgElement:nth-child(even){border-left: #817c7b9a solid 1px;}
 
   /* .imgElement{ margin-bottom: 10rem;} */

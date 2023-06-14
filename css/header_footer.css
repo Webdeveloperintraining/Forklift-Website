@@ -111,10 +111,14 @@ nav ul {
 .main {transition: margin-left .5s;background-color:#fffdfd;}
 
 div.social-media{display: flex; gap:15px;}
-div.social-media img{width: 40px;}
-div.social-media a{padding:0; transition:  all .5s;}
-div.social-media a:nth-child(1):hover{transform: translateY(-10px);transition:  all .5s; }
-div.social-media a:nth-child(2):hover{transform: translateY(-10px);transition: all .5s;}
+
+div.social-media a img{width: 40px; padding:0; transition: all .5s;}
+
+div.contacto{transition: all .5s;}
+
+div.contacto:hover,div.social-media a img:nth-child(1):hover{transform: translateY(-5px);transition:  all .5s; }
+
+div.social-media a img:nth-child(2):hover{transform: translateY(-5px);transition: all .5s;}
 
 #space{margin-bottom:4.5rem;}
 
@@ -144,7 +148,10 @@ footer div.social-media-footer{
     gap: 15px;
 }
 
-.social-media-footer img{width:70%;}
+.social-media-footer a img{width:70%; padding:0; transition:  all .5s;}
+
+div.social-media-footer a img:nth-child(1):hover{transform: translateY(-8px);transition:  all .5s;}
+div.social-media-footer a img:nth-child(2):hover{transform: translateY(-8px);transition:  all .5s;}
 
 /* footer h5{margin-top:0;} */
 

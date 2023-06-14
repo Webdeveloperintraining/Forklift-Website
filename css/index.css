@@ -59,6 +59,7 @@ video{object-fit:cover; width: 100%; min-height: inherit; height: inherit;}
     background-color: whitesmoke;
     color: black;
     border: #000000 1px solid;
+    transition: background-color .5s;
 }
 
 section h4, div h4{text-align: center;}
@@ -103,10 +104,10 @@ div.grid{
 
 }
 
-@media only screen and (min-width: 68rem ){
+@media only screen and (min-width: 65rem ){
 .content{max-width:75vw; margin: auto;}
 main div.large-image p{max-width:75vw; margin: auto; margin-top:15px; margin-bottom:15px;}
 .video-area{height: 77vh;}
 video{object-fit:fill; height: inherit;}
-div.grid{grid-template-rows:3rem 10rem 5rem; }
+
 }
