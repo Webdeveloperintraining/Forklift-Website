@@ -39,12 +39,12 @@ video{object-fit:cover; width: 100%; min-height: inherit; height: inherit;}
 
 .banner{padding: 5rem; background-color: #000000; color:white;}
 
-.btn{
+p a.btn{
     display:block;
     text-align: center;
     background-color:#000000;
     margin: auto;
-    width: 8em;
+    width: 8.5rem;
     text-decoration: none;
     color: aliceblue;
     border: 1px solid #000000;
@@ -109,5 +109,7 @@ div.grid{
 main div.large-image p{max-width:75vw; margin: auto; margin-top:15px; margin-bottom:15px;}
 .video-area{height: 77vh;}
 video{object-fit:fill; height: inherit;}
+
+div.grid{grid-template-rows:3rem .8fr 5rem;}
 
 }

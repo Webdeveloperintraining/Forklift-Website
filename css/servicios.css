@@ -48,6 +48,8 @@ div.servicios-img{
 
 div.servicios-img img{width:70%;}
 
+section ul li {margin:15px;}
+
 }
 
 @media only screen and (min-width: 68rem ){
@@ -62,4 +64,5 @@ div.servicios-img img{width:70%;}
     section img {display:block; margin:auto; width: 20%;}
 
     img#img-prioridad{ width: 25rem;}
+
 }

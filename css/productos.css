@@ -90,12 +90,16 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
   align-items: center;
 }
 
+section ul li {margin:15px;}
+
 /* Medium size */
 @media only screen and (min-width: 40rem) {
 
   div.large-image h1{/*padding-left: 60px;*/ right:60%; font-size:3.5rem;}
 
-  div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%); justify-content: center; align-content: center;}
+  /* div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%);} */
+
+  div.pat-grid,div.container{display:grid; grid-template-columns:repeat(4,25%);}
 
   div.container div img,div.imgElement img,div.pat-grid picture img{width:80%;max-width:14rem;}
   
@@ -108,8 +112,13 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
   .llantasTipos div{border-bottom: #817c7b9a solid 1px;}
   .llantasTipos div:nth-last-child(1),.llantasTipos div:nth-last-child(2){border-bottom:none;}
 
-  div.pat-grid div:nth-child(1),div.pat-grid div:nth-child(2),div.container div.imgElement:nth-child(1),div.container div.imgElement:nth-child(2){border-bottom: #817c7b9a solid 1px;}
+ div.container div.imgElement:nth-child(1),div.container div.imgElement:nth-child(2){border-bottom: #817c7b9a solid 1px;}
 
+
+  div.pat-grid div:nth-child(1),div.pat-grid div:nth-child(2){border-bottom: #817c7b9a solid 1px;}
+  div.pat.noline:nth-child(1),div.pat.noline:nth-child(2){border-bottom: none;}
+  
+  
   div.container div:nth-child(1),div.pat-grid div:nth-child(1){grid-column:3/4;}
   div.container div:nth-child(2),div.pat-grid div:nth-child(2){grid-column:4/5;}
   div.container div:nth-child(3),div.pat-grid div:nth-child(3){grid-column:3/4;}
@@ -129,6 +138,8 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
   section.llantasCategorias div div img{width:80%;max-width:20rem;}
 
   .llantasTipos{display:grid; grid-template-columns: 50% 50%;}
+  
+  
 }
 
 @media only screen and (min-width: 68rem ){
@@ -136,5 +147,8 @@ section.llantasCategorias div div img{width:80%;max-width:12rem;}
   main div.large-image p{max-width:75vw; margin: auto; margin-top:15px; margin-bottom:15px;}
   div.large-image h1{right:60%;}
   div.large-image img{height: 75vh;}
+  div.large-image img{
+    object-fit:contain;
+  }
 
 }
